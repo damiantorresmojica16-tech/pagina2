@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: venom-modz-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BOT_SECRET
+        generateValue: true
+      - key: COOKIE_SECRET
+        generateValue: true
+      - key: PORT
+        value: 3000
