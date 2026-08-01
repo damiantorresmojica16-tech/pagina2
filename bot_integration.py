@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "https://crack-vqey.onrender.com"  # Cambia esto por tu URL de Render
+API_URL = "https://pagina2-2.onrender.com"  # Cambia esto por tu URL de Render
 BOT_SECRET = "8712217253:AAGmnCdbIYFLOKtaHQLjLoGlc7bWsDgo2xI"  # Cambia esto por tu BOT_SECRET configurado
 
 def register_key(key: str, duration_days: int):
